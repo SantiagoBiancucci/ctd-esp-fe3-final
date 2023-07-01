@@ -23,7 +23,7 @@ const Card = ({ name, username, id, handleAddFav, isFav, showAddFavButton = true
   return (
     <div className="card">
       <div className="card__img">
-        <img src="images/pediatrician.jpg" alt="Card Image" />
+        <img src="images/dentist.jpg" alt="Card Image" />
       </div>
       <div className="card__avatar">
         <img src="images/doctor.jpg" alt="Avatar" />

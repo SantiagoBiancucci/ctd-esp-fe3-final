@@ -11,7 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.favButton{
+
+.favButton {
   background-color: rgba(136, 136, 136, 0.116);
   padding: 10px;
   border: none;
@@ -19,30 +20,32 @@ code {
   cursor: pointer;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-nav{
+nav {
   display: flex;
   width: 80vw;
   justify-content: flex-start;
   padding: 1rem;
 }
 
-a{
+nav a {
   color: #000;
   text-decoration: none;
   margin: 5px;
   cursor: pointer;
 }
-a:hover{
+
+nav a:hover {
   color: rgb(136, 136, 136);
 } 
 
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 2rem;
   position: relative;
@@ -52,16 +55,17 @@ footer {
   margin-top: 2rem;
 }
 
-footer > img{
+footer > img {
   width: 200px;
   margin: 0;
 }
-footer > p{
+
+footer > p {
   margin: 0;
   padding-top: 0.7rem;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -70,37 +74,36 @@ form{
   margin: 0 auto;
 }
 
-.card{
+.card {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   width: 200px;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.5rem;
   border: 0.5px solid rgb(136, 136, 136);
+  transition: border 0.3s;
 }
 
-.card:hover{
-  border: 0.5px solid rgb(206, 217, 142);
+.card:hover {
+  border: 0.5px solid rgb(142, 206, 217);
 }
 
-.card-grid{
+.card-grid {
   display: flex;
   justify-content: space-evenly;
   gap: 1rem;
   width: 90vw;
-  height: auto;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
 table {
- border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    border: 1px solid #ccc;
-
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
 }
 
 td, th {
@@ -113,14 +116,11 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.dark{
-  background-color: #12121296;
-  color: white;
-}
-.dark > a {
+.dark {
+  background-color: #11101b67;
   color: white;
 }
 
-/*nav {
-  background-color: aqua;
-}*/
+.dark a {
+  color: white;
+}
